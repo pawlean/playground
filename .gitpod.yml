@@ -1,8 +1,0 @@
-image: node:buster
-
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
-tasks:
-  - name: Example Environment Variables
-    env:
-      PRINT_HELLO: "Hello, world!"
-    command: echo $PRINT_HELLO
