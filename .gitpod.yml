@@ -1,4 +1,4 @@
-image: nginx
+image: nginx:latest
 
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
