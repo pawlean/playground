@@ -1,0 +1,11 @@
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - name: Environment Variables from .gitpod.yml # runs during prebuild
+    env:
+      VARIABLE_TWO: 2
+    command: echo $VARIABLE_TWO
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
