@@ -1,7 +1,0 @@
-hostname: myIP:30370
-proxy:
-    serviceType: "NodePort"
-    ports:
-      http:
-        expose: true
-        nodePort: 30370
