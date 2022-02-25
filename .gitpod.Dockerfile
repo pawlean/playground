@@ -1,3 +1,5 @@
 FROM gitpod/workspace-full
 
-RUN sudo apt-get update && sudo apt-get install php-xdebug -y
+RUN cargo install cargo-deny
+RUN cargo install cargo-udeps
+RUN rustup component add clippy
